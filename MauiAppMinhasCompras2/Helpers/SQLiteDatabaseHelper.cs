@@ -34,7 +34,7 @@ namespace MauiAppMinhasCompras2.Helpers
         }
 
         //READ
-        public Task<List<Produto>> GetAll(Produto p) 
+        public Task<List<Produto>> GetAll() 
         {
             return _connection.Table<Produto>().ToListAsync();
         }
