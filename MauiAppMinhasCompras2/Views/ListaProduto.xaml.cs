@@ -34,6 +34,7 @@ public partial class ListaProduto : ContentPage
 
     }
 
+	//Ajuda da Inteligência Artificial para otimizar a performance do APP (adiciona intervalos às buscas)
 	private CancellationTokenSource token_cancelar;
 	private readonly TimeSpan tempo_refresh = TimeSpan.FromMilliseconds(400);
 
